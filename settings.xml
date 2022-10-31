@@ -21,9 +21,7 @@
           <id>central</id>
           <name>libs-release</name>
           <url>http://artifactory.${PRIVATE_MAVEN_HOST}/artifactory/libs-release</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
+          <snapshots><enabled>true</enabled></snapshots>
         </repository>
         <repository>
           <snapshots />
@@ -37,9 +35,7 @@
           <id>central</id>
           <name>plugins-release</name>
           <url>http://artifactory.${PRIVATE_MAVEN_HOST}/artifactory/plugins-release</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
+          <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
@@ -63,12 +59,8 @@
           <pluginRepository>
               <id>public</id>
               <url>https://maven.aliyun.com/repository/public</url>
-              <releases>
-                  <enabled>true</enabled>
-              </releases>
-              <snapshots>
-                  <enabled>true</enabled>
-              </snapshots>
+              <releases><enabled>true</enabled></releases>
+              <snapshots><enabled>true</enabled></snapshots>
           </pluginRepository>
       </pluginRepositories>
     </profile>
