@@ -26,8 +26,8 @@ maven global settings for closed source and open source projects
 
 定义两个profile：
 
-	- 一个profile的id为 privatemaven
-	- 一个profile的id为 alimaven
+- 一个profile的id为 privatemaven
+- 一个profile的id为 alimaven
 
 activeProfiles激活两个profile：privatemaven和alimaven
 
