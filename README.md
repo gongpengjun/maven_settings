@@ -21,6 +21,21 @@ settings.xml配置文件路径：
 ~/.m2/repository/
 ```
 
+查看生效的settings.xml文件：
+
+```shell
+$ mvn -X clean | grep "settings"
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG] Reading global settings from /usr/local/bin/apache-maven-3.6.3/conf/settings.xml
+[DEBUG] Reading user settings from /Users/gongpengjun/.m2/settings.xml
+```
+
+查看最终生效的配置内容：
+
+```shell
+$ mvn help:effective-settings
+```
+
 ### 1、profiles and activeProfiles
 
 ```xml
