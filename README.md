@@ -3,7 +3,23 @@
 
 maven global settings for closed source and open source projects
 
-[settings.xml](settings.xml)
+### 0、settings.xml
+
+参考：https://maven.apache.org/settings.html
+
+完整配置：[settings.xml](settings.xml)
+
+settings.xml配置文件路径：
+
+```
+~/.m2/settings.xml
+```
+
+缺省本地仓库路径：
+
+```
+~/.m2/repository/
+```
 
 ### 1、profiles and activeProfiles
 
